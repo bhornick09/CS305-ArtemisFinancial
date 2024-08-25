@@ -1,1 +1,16 @@
 # CS305-ArtemisFinancial
+
+* Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
+    Artermis Financial is a consulting company that develops individualized financial plans for its customers. They want to modernize their operations, and to protect their client's data and financial information. 
+* What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
+    What I did well in finding my client's software security vulnerabilities was getting rid of all of them. Every vulnerability present was able to be fixed so that was the number one priority. It is important to code securely to protect both the user's information and the business information as well. Security adds an extreme value to a company's overall value, as one security slip up can destroy a company's name forever.
+* Which part of the vulnerability assessment was challenging or helpful to you?
+    The part of the vulnerability assessment that was the most challenging to myself was identifying false positives. In the case of project two, I was abel to rid all vulnerabilities without having to identify false positives, but in the assignment directly focused on false positives I struggled. The most helpful part of the vulnerability assessment was learning how to use maven and find potential areas of concern in any program I may use in the future. 
+* How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+      To increase the layers of security, we did multiple things. We added an algorithm cipher, certificate generation, changed protocol to https, and fixed all of the vulnerabilities present in the program.
+* How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+      To make certain the code and software application were functional and secure I used maven's dependency check plugin to scan for vulnerabilities. I ran the code to ensure it would run without issue and then reviewed the report that maven created. I checked this report at the beginning and after all of the fixes, to ensure all vulnerabilities were gone and no new ones arose. 
+* What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+      The main resource I used during this assignment was YouTube. I am a visual learner and YouTube has many genius creators that help me understand the concepts that are foreign to me. In any future assignment or task, YouTube will always be my go to. 
+* Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+      I would show future employers all of the security features that were created and added during this project, as this is my only work related to security. All companies, no matter the field are concerned by security so the work from this class will be valuable to any future employer. 
